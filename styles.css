@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --colorBlanco: #ffffff;
+  --colorNegro: #212429;
+}
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  margin: 0 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fef9c3;
+}
+
+main{
+  max-width: 920px;
+  margin: 16px auto;
+  background-color: #d9f99d;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  background-color: aquamarine;
+}
+
+.product{
+  font-size: 14px;
+  background-color: dodgerblue;
+}
+
+.product-img{
+  border-radius: 16px;
+}
+
+.product-detail{
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
