@@ -1,11 +1,12 @@
 # Laboratorio Módulo 1. HTML.
 
 El objetivo de este laboratorio es realizar la maquetación de una página web de ropa.
+
 Podemos entender que existen 3 partes claramente diferenciadas. Una barra de navegación, un cuerpo principal con los productos y un footer.
 
 El orden de trabajo y las actuaciones son las siguientes:
 
-1. Crear repositorio remoto y local.
+## Crear repositorio remoto y local.
 
     - Crear repositorio remoto en Github.
         - Lo de siempre: ponemos nombre al repo; elegimos Publico, sin readme.md
@@ -35,7 +36,7 @@ El orden de trabajo y las actuaciones son las siguientes:
 > [!NOTE]
 > A partir de este punto, empezamos a trabajar en las 3 areas anteriormente citadas. Navegación, cuerpo principal y footer. Empezamos por el cuerpo que es la pieza clave, ya que tiene que ser responsive, y esta parte nos proponemos hacerla sin media queries.
 
-2. Creación del cuerpo principal de los productos.
+## Creación del cuerpo principal de los productos.
 
     - importamos la fuente Montserrat
     - conectamos el archivo css con el html.
@@ -44,7 +45,8 @@ El orden de trabajo y las actuaciones son las siguientes:
     - creamos directorio assets/images, y subimos las imagenes
 
 > [!TIP]
-> Para que la section main sea responsive y dos posibilidades:
+> Para que la section main sea responsive y
+hay dos posibilidades:
 >   - Con media queries
 >   - Sin media queries usando:
 >  `grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));`
@@ -58,9 +60,17 @@ El orden de trabajo y las actuaciones son las siguientes:
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   justify-items: center;
-  background-color: aquamarine;
-}
+  }
 ```
+
+## Creación de la barra de navegación.
+
+Para esta funcionalidad usaremos flex ya que son elementos en una sola dirección.
+
+Ademas usaremos media queries ya que debemos mostrar unos elementos u otros en función del tamaño de la pantalla.
+
+
+
 
 
     
