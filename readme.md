@@ -46,7 +46,7 @@ El orden de trabajo y las actuaciones son las siguientes:
 > [!TIP]
 > Para que la section main sea responsive y dos posibilidades:
 >   - Con media queries
->   - Sin media queries usando: display:
+>   - Sin media queries usando:
 >  `grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));`
 
 
