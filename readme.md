@@ -35,6 +35,34 @@ El orden de trabajo y las actuaciones son las siguientes:
 > [!NOTE]
 > A partir de este punto, empezamos a trabajar en las 3 areas anteriormente citadas. Navegación, cuerpo principal y footer. Empezamos por el cuerpo que es la pieza clave, ya que tiene que ser responsive, y esta parte nos proponemos hacerla sin media queries.
 
-2. Creación del cuerpo principal de los productos. 
+2. Creación del cuerpo principal de los productos.
+
+    - importamos la fuente Montserrat
+    - conectamos el archivo css con el html.
+    - creamos directorio assets
+    - creamos directorio assets/icons, y subimos los iconos
+    - creamos directorio assets/images, y subimos las imagenes
+
+> [!TIP]
+> Para que la section main sea responsive y dos posibilidades:
+> Con media queries
+> Sin media queries usando: display:
+>  `grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));`
+
+
+  - en este caso usaremos la opción segunda sin media queries
+
+  ```css
+  .products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  background-color: aquamarine;
+}
+```
+
+
+    
 
 
