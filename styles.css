@@ -16,10 +16,23 @@ body{
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background-color: #fef9c3;
+  
 }
 /* NAVBAR */
+.container-fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: orange;
+}
+.container-navbar{
+  max-width: 920px;
+  margin: 0 auto;
+}
 
 .navbar {
+
   min-width: 300px;
   height: 64px;
   padding: 8px;
@@ -30,6 +43,7 @@ body{
   align-items: center;
   background-color: #f3f4f6;
   border-bottom: 1px solid var(--colorNegro);
+  font-size: 16px;
 }
 
 .navbar a{
@@ -51,6 +65,12 @@ main{
   max-width: 920px;
   margin: 16px auto;
   background-color: #d9f99d;
+}
+.title{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 64px;
 }
 
 .products{
