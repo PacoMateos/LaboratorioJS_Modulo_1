@@ -74,13 +74,12 @@ Ademas usaremos media queries ya que debemos mostrar unos elementos u otros en f
 
 
 ```css
-.footer-items{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
+    .footer-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
 }
-
 ```
 Para `@media (min-width: 1024px)` usamos:
 
@@ -98,7 +97,36 @@ Para `@media (min-width: 1024px)` usamos:
 
 ## Barra de navegación fija arriba
 
+Exiten varias posibilidades para fijar la barra de navegación en la parte superior:
 
+1. Position fixed
+    - En navbar:
+        ```css
+        .container-fixed{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        ````
+    - En main:
+
+        ```css
+        main{
+            margin-top: 64px; /* navbar heigt */
+        }
+2. Position sticky
+
+        ```css
+        .navbar {
+            position: sticky;
+            top: 0;
+        }
+        ```
+3. Scroll event (Requiere javascript)
+4. Intersection observer (Requiere javascript)
+
+En mi caso he implementado la opción primera (fixed)
 
     
 

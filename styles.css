@@ -64,13 +64,17 @@ body{
 main{
   max-width: 920px;
   margin: 16px auto;
-  background-color: #d9f99d;
+  background-color: var(--colorBlanco);
+  margin-top: 64px; /* navbar height */
+ 
 }
 .title{
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
-  margin-top: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
 }
 
 .products{
@@ -108,13 +112,10 @@ footer{
 
 .footer-items{
   width: 100%;
-  
   padding: 16px;
-  /*margin: 0 auto;*/
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /*gap: 1rem;*/
   justify-content: start;
   align-items: start;
 }
@@ -163,5 +164,8 @@ footer{
     justify-content: space-between;
     align-items: start;
     
+  }
+  .footer-item{
+    border-bottom-color: var(--colorNegro);
   }
 }
