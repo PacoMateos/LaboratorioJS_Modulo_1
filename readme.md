@@ -70,6 +70,33 @@ Para esta funcionalidad usaremos flex ya que son elementos en una sola direcció
 Ademas usaremos media queries ya que debemos mostrar unos elementos u otros en función del tamaño de la pantalla.
 
 
+## Creación del footer
+
+
+```css
+.footer-items{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+}
+
+```
+Para `@media (min-width: 1024px)` usamos:
+
+```css
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: start;
+}
+```
+
+
+
+## Barra de navegación fija arriba
 
 
 

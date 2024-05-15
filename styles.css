@@ -15,7 +15,7 @@
 body{
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: #fef9c3;
+  background-color: var(--colorBlanco);
   
 }
 /* NAVBAR */
@@ -24,7 +24,7 @@ body{
   width: 100%;
   top: 0;
   left: 0;
-  background-color: orange;
+  background-color: var(--colorBlanco);
 }
 .container-navbar{
   max-width: 920px;
@@ -78,12 +78,12 @@ main{
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   justify-items: center;
-  background-color: aquamarine;
+  background-color: var(--colorBlanco);
 }
 
 .product{
   font-size: 14px;
-  background-color: dodgerblue;
+  background-color: var(--colorBlanco);
 }
 
 .product-img{
